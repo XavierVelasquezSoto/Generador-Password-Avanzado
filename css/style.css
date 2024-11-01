@@ -26,49 +26,145 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #110032;
+  color: white;
 }
 
-.container-Range{
+.container-password{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.textPassword{
+  width: 428px;
+  height: 60px;
+  background-color: #241442;
+  border-radius: 10px;
+  border: none;
+  color: inherit;
+  margin-top: 250px;
 }
 
 .containerNumberLength{
   display: flex;
+  margin-right: 320px;
 }
 
-.checkbox{
+.numbers{
   display: flex;
-  flex-direction: column;
+  padding-left: 15px;
+}
+
+.container-Range{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 428px;
+  height: 60px;
+  background-color: #241442;
+  border-radius: 10px;
+}
+
+.rangeLine{
+  width: 310px;
+  height: 3px;
+  accent-color: #7400e4;
+}
+.num1{
+  padding-right: 20px;
+}
+
+.num2{
+  padding-left: 20px;
 }
 
 .box1{
   display: flex;
+  align-items: center;
+  background-color: #241442;
+  border-radius: 10px;
+  width: 428px;
+  height: 60px;
+  margin-top: 20px;
 }
 
-.checkbox1{
-  margin-left: 0px;
+.Include-Uppercase{
+  padding-left: 20px;
+  padding-right: 210px;
+}
+
+.vocabularyUpper{
+  width: 30px;
+  height: 30px;
 }
 
 .box2{
   display: flex;
+  align-items: center;
+  background-color: #241442;
+  border-radius: 10px;
+  width: 428px;
+  height: 60px;
+  margin-top: 20px;
 }
 
-.checkbox2{
-  margin-left: 0px;
+.include-lowercase{
+  padding-left: 20px;
+  padding-right: 210px;
+}
+
+.vocabularyLower{
+  width: 30px;
+  height: 30px;
 }
 
 .box3{
   display: flex;
+  align-items: center;
+  background-color: #241442;
+  border-radius: 10px;
+  width: 428px;
+  height: 60px;
+  margin-top: 20px;
 }
 
-.checkbox3{
-  margin-left: 0px;
+.include-numbers{
+  padding-left: 20px;
+  padding-right: 225px;
+}
+
+.checkNumbers{
+  width: 30px;
+  height: 30px;
 }
 
 .box4{
   display: flex;
+  align-items: center;
+  background-color: #241442;
+  border-radius: 10px;
+  width: 428px;
+  height: 60px;
+  margin-top: 20px;
 }
 
-.checkbox4{
-  margin-left: 0px;
+.include-symbols{  
+  padding-left: 20px;
+  padding-right: 230px;
+}
+
+.checkSymbols{
+  width: 30px;
+  height: 30px;
+}
+
+.generatePassword{
+  width: 428px;
+  height: 60px;
+  border-radius: 10px;
+  color: inherit;
+  background: linear-gradient(to right, #7944e7, #8300ab);
+  margin-top: 20px;
 }
