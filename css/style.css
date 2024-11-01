@@ -27,3 +27,48 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.container-Range{
+  display: flex;
+}
+
+.containerNumberLength{
+  display: flex;
+}
+
+.checkbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.box1{
+  display: flex;
+}
+
+.checkbox1{
+  margin-left: 0px;
+}
+
+.box2{
+  display: flex;
+}
+
+.checkbox2{
+  margin-left: 0px;
+}
+
+.box3{
+  display: flex;
+}
+
+.checkbox3{
+  margin-left: 0px;
+}
+
+.box4{
+  display: flex;
+}
+
+.checkbox4{
+  margin-left: 0px;
+}

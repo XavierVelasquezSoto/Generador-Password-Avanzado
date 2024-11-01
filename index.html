@@ -6,5 +6,47 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="Container-Password">
+      <input id="textPassword" type="text" class="textPassword" />
+      <div class="containerNumberLength">
+        <p>LENGTH:</p>
+        <p id="numbers" class="numbers"></p>
+      </div>
+      <div class="container-Range">
+        <p>4</p>
+        <input
+          id="range"
+          type="range"
+          min="4"
+          max="32"
+          step="1"
+          class="rangeLine"
+        />
+        <p>32</p>
+      </div>
+      <div class="container-Checkbox">
+        <div class="box1">
+          <p>Include Uppercase</p>
+          <input id="vocabularyUpper" type="checkbox" class="vocabularyUpper" />
+        </div>
+        <div class="box2">
+          <p>Include Lowercase</p>
+          <input id="vocabularyLower" type="checkbox" class="vocabularyLower" />
+        </div>
+        <div class="box3">
+          <p>Include Numbers</p>
+          <input id="checkNumbers" type="checkbox" class="checkbox3" />
+        </div>
+        <div class="box4">
+          <p>Include Symbols</p>
+          <input id="checkSymbols" type="checkbox" class="checkbox4" />
+        </div>
+      </div>
+      <button id="generatePassword" disabled class="generatePassword">
+        Generate Password
+      </button>
+    </div>
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
