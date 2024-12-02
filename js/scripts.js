@@ -8,33 +8,33 @@ const checkNumbersElement = document.getElementById("checkNumbers")
 const checkSymbolsElement = document.getElementById("checkSymbols")
 const generatePasswordElement = document.getElementById("generatePassword")
 
-const vocabularyUpper = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
-const vocabularyLower = "abcdefghijklmnñopqrstuvwxyz"
-const checkNumbers = "0123456789"
-const checkSymbols = ",;.:-_<>`^[´¨{+*]çÇ}/*-+º!·$%&/()=¡|@#~€¬"
+const vocabularyUpper = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+const vocabularyLower = "abcdefghijklmnñopqrstuvwxyz";
+const checkNumbers = "0123456789";
+const checkSymbols = ",;.:-_<>`^[´¨{+*]çÇ}/*-+º!·$%&/()=¡|@#~€¬";
 
 
 const generatePassword = () => {
-    let textContent = ""
-    let contentCheck = ""
+    let textContent = "";
+    let contentCheck = "";
     
         for (let i = 0; i < rangeElement.value; i++)
             {                
                 if (vocabularyUpperElement.checked)
                     {
-                        contentCheck += vocabularyUpper
+                        contentCheck += vocabularyUpper;
                     }
                 if (vocabularyLowerElement.checked)
                     {
-                        contentCheck += vocabularyLower
+                        contentCheck += vocabularyLower;
                     }
                 if (checkNumbersElement.checked)
                     {
-                        contentCheck += checkNumbers
+                        contentCheck += checkNumbers;
                     }
                 if (checkSymbolsElement.checked)
                     {
-                        contentCheck += checkSymbols
+                        contentCheck += checkSymbols;
                     }
                 textContent += contentCheck.charAt(Math.floor(Math.random() * contentCheck.length))
             }
