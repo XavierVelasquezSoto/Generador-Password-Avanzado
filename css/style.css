@@ -172,9 +172,5 @@ body {
   background: linear-gradient(to right, #7944e7, #8300ab);
   margin-top: 20px;
   cursor: pointer;
-  transition: scale 0.3s;
-}
-
-.generatePassword:hover {
-  scale: 0.95;
+  border: none;
 }
