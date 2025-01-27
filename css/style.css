@@ -30,14 +30,13 @@ body {
   color: white;
 }
 
-.container-password{
+.container-password {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.textPassword{
+.textPassword {
   width: 428px;
   height: 60px;
   background-color: #241442;
@@ -48,17 +47,17 @@ body {
   text-align: center;
 }
 
-.containerNumberLength{
+.containerNumberLength {
   display: flex;
   margin-right: 320px;
 }
 
-.numbers{
+.numbers {
   display: flex;
   padding-left: 15px;
 }
 
-.container-Range{
+.container-Range {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,20 +67,20 @@ body {
   border-radius: 10px;
 }
 
-.rangeLine{
+.rangeLine {
   width: 310px;
   height: 3px;
   accent-color: #7400e4;
 }
-.num1{
+.num1 {
   padding-right: 20px;
 }
 
-.num2{
+.num2 {
   padding-left: 20px;
 }
 
-.box1{
+.box1 {
   display: flex;
   align-items: center;
   background-color: #241442;
@@ -91,37 +90,18 @@ body {
   margin-top: 20px;
 }
 
-.Include-Uppercase{
-  padding-left: 20px;
-  padding-right: 210px;
-}
-
-.vocabularyUpper{
-  width: 30px;
-  height: 30px;
-}
-
-.box2{
-  display: flex;
-  align-items: center;
-  background-color: #241442;
-  border-radius: 10px;
-  width: 428px;
-  height: 60px;
-  margin-top: 20px;
-}
-
-.include-lowercase{
+.Include-Uppercase {
   padding-left: 20px;
   padding-right: 210px;
 }
 
-.vocabularyLower{
+.vocabularyUpper {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
-.box3{
+.box2 {
   display: flex;
   align-items: center;
   background-color: #241442;
@@ -131,17 +111,39 @@ body {
   margin-top: 20px;
 }
 
-.include-numbers{
+.include-lowercase {
+  padding-left: 20px;
+  padding-right: 210px;
+}
+
+.vocabularyLower {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.box3 {
+  display: flex;
+  align-items: center;
+  background-color: #241442;
+  border-radius: 10px;
+  width: 428px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.include-numbers {
   padding-left: 20px;
   padding-right: 225px;
 }
 
-.checkNumbers{
+.checkNumbers {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
-.box4{
+.box4 {
   display: flex;
   align-items: center;
   background-color: #241442;
@@ -151,21 +153,28 @@ body {
   margin-top: 20px;
 }
 
-.include-symbols{  
+.include-symbols {
   padding-left: 20px;
   padding-right: 230px;
 }
 
-.checkSymbols{
+.checkSymbols {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
-.generatePassword{
+.generatePassword {
   width: 428px;
   height: 60px;
   border-radius: 10px;
   color: inherit;
   background: linear-gradient(to right, #7944e7, #8300ab);
   margin-top: 20px;
+  cursor: pointer;
+  transition: scale 0.3s;
+}
+
+.generatePassword:hover {
+  scale: 0.95;
 }
